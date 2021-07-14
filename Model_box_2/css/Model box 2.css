@@ -1,0 +1,132 @@
+body{
+    border-style: solid;
+    border-width: 4px;
+    border-color: #830083;
+    width: 960px;
+    margin: auto;
+}
+
+.text{
+    text-align: center;
+    font-family: serif;
+}
+
+.header{
+    border-style: solid;
+    border-width: 4px;
+    border-color: #170076;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+
+}
+.into{
+    border-style: solid;
+    border-color: #008300;
+    border-width: 4px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding-top: 20px;
+
+}
+
+.boxhr{
+    display: flex;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: #d8de00;
+    border-width: 3px;
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    white-space: nowrap;
+}
+
+.box2{
+    border-style: solid;
+    border-width: 3px;
+    border-color: #000000;
+    padding-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    white-space: nowrap;
+}
+
+.side{
+    border-style: solid;
+    border-width: 4px;
+    border-color: #db8f00;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -15px;
+}
+
+.t{
+    margin-left: 130px;
+    padding-right: 110px;
+}
+
+.boxhr2{
+    display: flex;
+}
+
+.dbox1{
+    display: flex;
+    width: 50%;
+    padding: 80px 0;
+    border-style: solid;
+    border-color: #ff2020;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+
+.dbox2{
+    display: flex;
+    width: 50%;
+    padding: 80px 0;
+    border-style: solid;
+    border-color: #da9ba6;
+    margin-right: 10px;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+
+
+.footer {
+    border-style: solid;
+    border-color: #a72724;
+    border-width: 4px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+
+
