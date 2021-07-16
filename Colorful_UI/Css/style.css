@@ -244,6 +244,7 @@ body{
 
 .show{
     margin-top: 90px;
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 90px;
     margin-left: 35px;
     margin-right: 40px;
@@ -305,6 +306,7 @@ body{
 }
 
 .showlay{
+    font-family: 'Open Sans', sans-serif;
     margin-top:25px;
     font-size: 16px;
     font-weight: 600;
@@ -319,6 +321,7 @@ body{
     justify-content: center;
     width: 924px;
     margin-bottom: 15px;
+    margin: auto;
 }
 
 .line{
@@ -340,6 +343,7 @@ body{
 }
 
 .showlay2{
+    font-family: 'Open Sans', sans-serif;
     margin-top:25px;
     font-size: 16px;
     font-weight: 600;
@@ -444,6 +448,7 @@ body{
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 10px;
+    
 }
 
 .icon2{
@@ -458,6 +463,8 @@ body{
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 10px;
+    width: 20px;
+    height: 20px;
 }
 
 .icon3{
@@ -551,6 +558,7 @@ body{
 }
 
 .showx{
+    font-family: 'Open Sans', sans-serif;
     margin-top: 70px;
     margin-bottom: 70px;
     margin-left: 35px;
@@ -610,6 +618,7 @@ li{
 }
 
 .showf{
+    font-family: 'Open Sans', sans-serif;
     margin-left: 35px;
     margin-right: 40px;
     font-size: 16px;
@@ -653,6 +662,8 @@ li{
     font-size: 30px;
     margin-bottom: 20px;
     margin-left: 10px;
+    height: 30px;
+    height: 30px;
 }
 
 .gold{
