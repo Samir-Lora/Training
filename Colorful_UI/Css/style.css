@@ -357,7 +357,12 @@ body{
 .body4{
     background-color: #e1b6c7;
     margin: 0px;
-    
+}
+
+.size{
+    width: 924px;
+    margin: auto;
+    flex-wrap: nowrap;
 }
 
 .meettext{
@@ -372,22 +377,24 @@ body{
     display: flex;
     display: -webkit-flex;
     display: -ms-flexbox;
-    justify-content:center;
-    justify-items: center;
-    align-items: center;
+    flex-direction: column;
     text-align: center;
-    width: 924px;
-    margin: auto;
 }
 
 .info{
-    margin-top: 50px;
+    margin-top: 0px;
+    display: flex;
+    justify-content:center;
+    justify-items: center;
+    align-items: center;
+    align-content: space-around;
 }
 
 .icon{
-    width: 85%;
+    width: 33%;
     height: 110px;
     padding-top: 60px;
+    margin-left: 23px;
     background-color: #ebebeb;
     font-size: 50px;
     color: white;
@@ -398,6 +405,7 @@ body{
     width: 83%;
     margin-top: 0px;
     margin-left: 23px;
+    margin-bottom: 0px;
     background-color: white;
     font-size: 17px;
     padding-left: 3px;
@@ -436,7 +444,6 @@ body{
     justify-content: center;
     background: white;
     margin-left: 23px;
-    margin-top: -17px;
     width: 85%;
     margin-bottom: 70px;
 }
