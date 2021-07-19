@@ -1,0 +1,14 @@
+name: milo
+on: [push]
+jobs:
+  Milo:
+    name: milo
+    runs-on: ubuntu-latest
+    steps:
+      - name: check out code into the Go module directory
+      - uses: actions/checkout@v2
+      - name: Run Milo 
+        run: |
+        curl -sf https://gobinaries.com/wawandco/milo/cmd/milo | sh
+        miloreview
+
