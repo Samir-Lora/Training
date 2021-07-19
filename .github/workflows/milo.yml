@@ -10,5 +10,5 @@ jobs:
       - name: Run Milo 
         run: |
         curl -sf https://gobinaries.com/wawandco/milo/cmd/milo | sh 
-        miloreview
+        miloreview .
 
