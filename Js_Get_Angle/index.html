@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>JS Get Angle</title>
+</head>
+
+<body>
+  <section>
+    <div class="body">
+      <div class="bg">
+        <div class="ui" id="ui">
+          <div class="container">
+            <p class="get">Get angle º value with specific time.</p>
+            <form id="changebtn">
+              <button class="bt" id="btnc" type="submit">Change Layout</button>
+            </form>
+          </div>
+          <hr>
+          <button id="btbad" class="bad" type="submit">Bad Request</button>
+          <div class="container2" id="column">
+              <div>
+                <p class="h">Hours</p>
+                <input class="hf" id="hrs" placeholder="Hours" type="number">
+              </div>
+              <div>
+                <p class="m" id="minute">Minute</p>
+                <input class="mf" id="minutei" placeholder="Minutes" type="number">
+              </div>
+          </div>
+            <div>
+              <form id="sendform">
+              <input class="send" id="send" type="submit" value="Send info">
+            </form>
+            </div>
+          <div class="container3">
+            <p class="add" id="hour">Add <span id="hour2"> and minutes</span> to <span id="minute2"> get </span> angle
+            </p>
+            <div class="grade">
+              <p class="grp" id="result">0º</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="js/angle.js"></script>
+
+</body>
+
+</html>
