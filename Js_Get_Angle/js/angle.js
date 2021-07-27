@@ -47,10 +47,6 @@ sendform.addEventListener("submit", function(evt) {
         minute2 = "<span id='minute2' class='color'> " + minute +" Minutes </span>";
         hour.innerHTML = "At "+hour2+" with "+minute2+ "there's an angle of:";
         result.innerHTML = resultag+"º";
-        let bad = document.getElementById("btbad");
-        bad.style.display = "none";
-        let ui = document.getElementById("ui");
-        ui.style.height = "600px"
     } else {
         let bad = document.getElementById("btbad");
         bad.style.display = "block";
